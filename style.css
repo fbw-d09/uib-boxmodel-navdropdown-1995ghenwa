@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 96px;
+}
+nav ul {
+    list-style: none;
+    font-size: 1.2rem;
+}
+nav .list-red-item {
+    display: inline-block;
+    margin-right: 20px;
+}
+nav a {
+    text-decoration: none;
+    color:rgb(85, 78, 78);
+}
+nav .list-red-item::before {
+    content: "| ";
+    font-size: 1.2rem;
+    color:red;
+    font-weight: bold;
+}
+.dropdown {
+    position: absolute;
+    display: none;
+}
+ul li:hover > ul {
+  display: block;
+}
+
+
+
+
+
+
+
+
